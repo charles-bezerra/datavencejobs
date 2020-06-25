@@ -18,11 +18,11 @@
 
 spring.datasource.initialization-mode=always
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/<banco de dados criado por você>
+spring.datasource.url=jdbc:postgresql://localhost:5432/banco de dados criado por você
 
-spring.datasource.username=<usuario que definiu>
+spring.datasource.username= usuario que definiu
 
-spring.datasource.password=<senha que definiu>
+spring.datasource.password= senha que definiu
 
 spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 
