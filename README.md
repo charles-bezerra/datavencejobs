@@ -1,7 +1,7 @@
 # DatavenceJobs-API
 
 
-## Etapas
+## Como executar o projeto?
 
 ### 1 - Instale em sua máquina o PostgreSQL
 
