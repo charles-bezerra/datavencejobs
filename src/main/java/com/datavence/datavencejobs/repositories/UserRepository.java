@@ -1,7 +1,10 @@
 package com.datavence.datavencejobs.repositories;
 
 import com.datavence.datavencejobs.models.User;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends CrudRepository<User, Long> {
+import java.util.List;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+    List<User> findAll();
 }

@@ -24,6 +24,9 @@ public class User implements Serializable {
     @NotNull
     private Boolean admin;
 
+    @NotNull
+    private String remenber_token;
+
     public void setAdmin(Boolean admin) {
         this.admin = admin;
     }
@@ -75,5 +78,13 @@ public class User implements Serializable {
     @Override
     public int hashCode() {
         return Objects.hash(getId(), getEmail());
+    }
+
+    public String getRemenber_token() {
+        return remenber_token;
+    }
+
+    public void setRemenber_token(String remenber_token) {
+        this.remenber_token = remenber_token;
     }
 }

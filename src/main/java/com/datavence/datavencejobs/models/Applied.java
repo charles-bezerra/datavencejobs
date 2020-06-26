@@ -3,10 +3,11 @@ package com.datavence.datavencejobs.models;
 import com.sun.istack.NotNull;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table(name="tb_applied")
-public class Applied {
+public class Applied implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -22,7 +23,7 @@ public class Applied {
 
     private String details;
 
-    private String url_linkdin;
+    private String url_linkedin;
 
     @NotNull
     private String url_github;
@@ -32,6 +33,9 @@ public class Applied {
 
     @NotNull
     private String wage_claim;
+
+    @NotNull
+    private Long id_curriculum;
 
     public Long getId() {
         return id;
@@ -73,12 +77,12 @@ public class Applied {
         this.details = details;
     }
 
-    public String getUrl_linkdin() {
-        return url_linkdin;
+    public String getUrl_linkedin() {
+        return url_linkedin;
     }
 
-    public void setUrl_linkdin(String url_linkdin) {
-        this.url_linkdin = url_linkdin;
+    public void setUrl_linkedin(String url_linkedin) {
+        this.url_linkedin = url_linkedin;
     }
 
     public String getUrl_github() {
@@ -103,5 +107,13 @@ public class Applied {
 
     public void setWage_claim(String wage_claim) {
         this.wage_claim = wage_claim;
+    }
+
+    public Long getId_curriculum() {
+        return id_curriculum;
+    }
+
+    public void setId_curriculum(Long id_curriculum) {
+        this.id_curriculum = id_curriculum;
     }
 }
