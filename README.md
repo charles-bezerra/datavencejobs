@@ -1,5 +1,6 @@
 # DatavenceJobs-API
 
+
 ## Etapas
 
 ### 1 - Instale em sua máquina o PostgreSQL
@@ -14,20 +15,16 @@
 
 ### 3 - Configurar o banco de dados no Spring
 
-=> No arquivo resources/application.properties alterar e adicionar o seguinte:
+=> No arquivo resources/application.properties alterar o seguinte:
 
-spring.datasource.initialization-mode=always
-
-spring.datasource.url=jdbc:postgresql://localhost:5432/banco de dados criado por você
-
-spring.datasource.username= usuario que definiu
-
-spring.datasource.password= senha que definiu
-
-spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.datasource.url=jdbc:postgresql://localhost:5432/(banco de dados criado por você)
+spring.datasource.username=(usuario que definiu)
+spring.datasource.password=(senha que definiu)
 
 
 ### 4 - Executar o projeto
+
+<hr style="width: 100%"/>
 
 #### Obs: Lembre-se de baixar, instalar e executar o front-end em seguida <a href="https://github.com/charles-bezerra/DatavenceJobs-Front/">neste link</a>
 
