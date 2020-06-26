@@ -5,7 +5,7 @@
 
 ### 1 - Instale em sua máquina o PostgreSQL
 
-=> Tutorial para ubuntu: youtube.com/watch?v=LYgQW4a_anA
+=> Tutorial da Marta Talita para ubuntu: <a href="youtube.com/watch?v=LYgQW4a_anA">Aqui</a>
 
 
 ### 2 - Baixe o projeto e descompacte o arquivo
@@ -17,9 +17,9 @@
 
 => No arquivo resources/application.properties alterar o seguinte:
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/(banco de dados criado por você)
-spring.datasource.username=(usuario que definiu)
-spring.datasource.password=(senha que definiu)
+spring.datasource.url=jdbc:postgresql://localhost:5432/(banco de dados criado por você) <br/>
+spring.datasource.username=(usuario que definiu) <br/>
+spring.datasource.password=(senha que definiu) <br/>
 
 
 ### 4 - Executar o projeto
