@@ -1,0 +1,16 @@
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/models/User.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/repositories/AppliedRespository.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/controllers/UserController.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/controllers/SaveCurriculumController.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/repositories/UserRepository.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/controllers/JobController.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/configs/WebConfig.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/controllers/PlaceController.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/repositories/PlaceRepository.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/models/Applied.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/DatavenceJobsApplication.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/controllers/AppliedController.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/dto/UserDTO.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/models/Job.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/models/Place.java
+/home/charles/Desktop/datavencejobs/src/main/java/com/datavence/datavencejobs/repositories/JobRepository.java
