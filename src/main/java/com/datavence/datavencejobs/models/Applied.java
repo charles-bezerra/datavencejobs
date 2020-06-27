@@ -35,7 +35,7 @@ public class Applied implements Serializable {
     private String wage_claim;
 
     @NotNull
-    private Long id_curriculum;
+    private String url_curriculum;
 
     public Long getId() {
         return id;
@@ -109,11 +109,11 @@ public class Applied implements Serializable {
         this.wage_claim = wage_claim;
     }
 
-    public Long getId_curriculum() {
-        return id_curriculum;
+    public String getUrl_curriculum() {
+        return url_curriculum;
     }
 
-    public void setId_curriculum(Long id_curriculum) {
-        this.id_curriculum = id_curriculum;
+    public void setUrl_curriculum(String url_curriculum) {
+        this.url_curriculum = url_curriculum;
     }
 }
