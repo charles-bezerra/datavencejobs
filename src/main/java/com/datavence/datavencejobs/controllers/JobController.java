@@ -2,6 +2,7 @@ package com.datavence.datavencejobs.controllers;
 
 import com.datavence.datavencejobs.models.Job;
 import com.datavence.datavencejobs.repositories.JobRepository;
+import com.datavence.datavencejobs.repositories.PlaceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,6 +14,9 @@ import java.util.Optional;
 public class JobController {
     @Autowired
     private JobRepository jobRepository;
+
+    @Autowired
+    private PlaceRepository placeRepository;
 
     @GetMapping("")
     public @ResponseBody List<Job> getAllJobs () {
@@ -26,6 +30,7 @@ public class JobController {
 
     @PostMapping("")
     public @ResponseBody Job postJob (@RequestBody Job job) {
+        placeRepository.save(job.getPlace());
         return jobRepository.save(job);
     }
 
