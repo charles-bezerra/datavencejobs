@@ -37,6 +37,9 @@ public class Applied implements Serializable {
     @NotNull
     private String url_curriculum;
 
+    @ManyToOne
+    private Job job;
+
     public Long getId() {
         return id;
     }
@@ -115,5 +118,13 @@ public class Applied implements Serializable {
 
     public void setUrl_curriculum(String url_curriculum) {
         this.url_curriculum = url_curriculum;
+    }
+
+    public Job getJob() {
+        return job;
+    }
+
+    public void setJob(Job job) {
+        this.job = job;
     }
 }
