@@ -16,6 +16,7 @@ public class Job implements Serializable {
     @NotNull
     private String title;
 
+    @Column(columnDefinition = "varchar(1000)")
     @NotNull
     private String details;
 

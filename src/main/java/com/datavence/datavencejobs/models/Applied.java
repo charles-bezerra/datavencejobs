@@ -21,6 +21,7 @@ public class Applied implements Serializable {
     @NotNull
     private String phonedev;
 
+    @Column(columnDefinition = "varchar(1000)")
     private String details;
 
     private String url_linkedin;
