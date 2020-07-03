@@ -2,6 +2,8 @@ package com.datavence.datavencejobs.services;
 
 import com.datavence.datavencejobs.exceptions.StorageException;
 import com.datavence.datavencejobs.exceptions.StorageFileNotFoundException;
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
@@ -21,13 +23,12 @@ import java.nio.file.StandardCopyOption;
 import java.util.stream.Stream;
 
 @Service
-public class StorageService  {
-    
+public class StorageService {
     @Value("${app.uploaddir}")
-    public String uploadDir = "/home/charles/uploads";
+    public String uploadDir = "/home";
     private final Path rootLocation;
 
-
+    
     @Autowired
     public StorageService() {
         this.rootLocation = Paths.get(uploadDir);
@@ -65,7 +66,7 @@ public class StorageService  {
         }
     }
 
-    
+
     public Stream<Path> loadAll() {
         try {
             return Files
