@@ -17,9 +17,11 @@
 ## 3 - Configurar o banco de dados no Spring
 <p>No arquivo resources/application.properties alterar o seguinte: </p>
 
-=>  spring.datasource.url=jdbc:postgresql://localhost:5432/(banco de dados criado por você <br/>
-=>  spring.datasource.username=(usuario que definiu) <br/>
-=>  spring.datasource.password=(senha que definiu) <br/>
+>  spring.datasource.url=jdbc:postgresql://localhost:5432/(banco de dados criado por você <br/>
+
+>  spring.datasource.username=(usuario que definiu) <br/>
+
+>  spring.datasource.password=(senha que definiu) <br/>
 
 
 ## 4 - Executar o projeto
